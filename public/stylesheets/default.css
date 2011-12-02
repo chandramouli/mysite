@@ -1,0 +1,239 @@
+#wrapper {
+    width:934px;
+    /*background-color: #000;*/
+    margin:0 auto 10px;
+    padding:30px;
+}
+
+#header {
+   /*border: solid #000 ;*/
+   /*background-color: #000;*/
+}
+#content{
+   /* background-image:url('/images/mouli2.png');*/
+   /*width: 80%;*/
+   /*background-color: #fff;*/
+   height:273px;
+   margin-top:10px;
+}
+
+#main_menu{
+   bottom: 0;
+}   
+
+body {
+   background-image:url('/images/background.gif');   
+   /*background-repeat: no-repeat;*/
+   /*background-position: top;   */
+   /*background-color: #6797ce;*/
+
+ }     
+       
+#mainmenu_table {
+   margin-top: 25px;
+   /*margin-left: -18px;*/
+} 
+ 
+#main_menu img {
+   margin: 0px;
+   opacity: 0.8;
+   /*border: 1px solid #eee; */
+   Transition
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease; 
+   /*Reflection*/
+   -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), 
+   to(rgba(0,0,0,0.1)));
+} 
+ 
+#main_menu img:hover { 
+   opacity: 1;
+   margin-bottom: 0px;
+   /*Reflection*/
+   -webkit-box-reflect: below 1px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.1, transparent),
+   to(rgba(0,0,0,0.4))); 
+   /*Glow
+   -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+   -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+   box-shadow: 0px 0px 20px rgba(255,255,255,0.8);*/
+   cursor: pointer;
+}
+
+#logo img {
+   margin-top:1%;
+   position: left;   
+}
+
+#logo img:hover { 
+  opacity : 1;
+  /*Glow
+  -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  box-shadow: 0px 0px 20px rgba(255,255,255,0.8); */              
+  -webkit-transform: rotate(-9deg);
+  -moz-transform: rotate(-9deg);
+  -o-transform: rotate(-9deg); 
+  cursor: pointer;
+}
+
+h2 ,p{
+  color: #fff;
+
+}
+
+#loading {
+    position:absolute;
+    width:300px;
+    left:50%;
+    margin-left:370px;
+    margin-top: 170px;
+    text-align:center;
+    padding:7px 0 0 0;
+    font:bold 11px Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+#home_content{
+    font: 29px Pristina, Arial, Helvetica, sans-serif ;
+    color: ;
+}
+
+a{
+  text-decoration:none;
+}
+
+
+#slider ul, #slider li{
+    margin-top:0px;
+    padding:0;
+    list-style:none;
+}
+#slider, #slider li{ 
+    width:930px;
+    height:350px;
+    border: 1px solid #fff;
+    overflow:hidden; 
+}
+
+#contents{
+     color: #dedede;
+     width: 930px;
+     height:380px;
+     border: solid 1px #fff;
+}
+
+#business_image{
+  /*border: 1px solid #fff;*/
+  width: 45%;
+  height: 500px;
+  float: left;
+  background-color: #ffffff;
+}
+
+#mouli1{
+  padding:18px;
+}
+
+#business_content{
+  /*border: 1px solid #fff;*/
+  width: 55%;
+  float: right;
+  height: 500px;
+  background-color: #ffffff;
+}
+
+#business{
+  background-color: #ffffff;
+}
+
+#business_description{
+  border: 1px solid #000;
+  width: 92%;
+  height: 89%;
+}
+
+#mouli1{
+  padding:18px;
+}
+
+#forest{
+  /*margin-top: 30px;*/
+}
+
+
+/*-------------SCROLLTO---------------------*/
+.scrollto{
+    background-image:url('/images/background.gif');
+    font-family:pristina;
+    font-size: 28px;
+    letter-spacing:1px;
+    width:16000px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    bottom:0px;
+}
+.section{
+    margin:0px;
+    bottom:0px;
+    width:4000px;
+    float:left;
+    height:100%;
+    /*text-shadow:1px 1px 2px #f0f0f0;*/
+}
+.section h2{
+    margin:80px 0px 30px 50px;
+}
+.section p{
+    margin:20px 0px 0px 50px;
+    width:600px;
+}
+.black{
+    color:#fff;    
+    background:url('/images/black2.jpg') no-repeat top right;
+}
+.white{
+    color:#000;    
+    background:url('/images/white2.jpg') no-repeat top right;
+}
+.section ul{
+    list-style:none;
+    margin:20px 0px 0px 550px;
+}
+.black ul li{
+    font-family:Georgia;
+    font-size:18px;
+    font-weight:bold;
+    float:left;
+    padding:5px;
+    margin:5px;
+    color:#aaa;
+}
+    
+.black ul li a{
+    display:block;
+    color:#f0f0f0;
+}
+.black ul li a:hover{
+    text-decoration:none;
+    color:#fff;
+}
+.white ul li{
+    font-family:Georgia;
+    font-size:18px;
+    font-weight:bold;
+    float:left;
+    padding:5px;
+    margin:5px;
+    color:#aaa;
+}
+.white ul li a{
+    display:block;
+    color:#222;
+}
+.white ul li a:hover{
+    text-decoration:none;
+    color:#000;
+}
+/*-------------------*/

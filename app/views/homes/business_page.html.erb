@@ -1,0 +1,69 @@
+
+<div class="scrollto">
+
+<div class="section black" id="section1">
+  <ul class="nav">
+    <li><a href="index.html">|Home|</a></li>
+    <li>|Portfolio|</li>
+    <li><a href="#section2">|Services|</a></li>
+    <li><a href="#section3">|Contact|</a></li>
+  </ul>
+  <h2>Portfolio</h2>
+  <p>
+    MY Spectre around me night and day
+    Like a wild beast guards my way;
+    My Emanation far within
+    Weeps incessantly for my sin.
+  </p>
+  
+</div>
+<div class="section white" id="section2">
+  <ul class="nav">
+    <li><a href="index.html">|Home|</a></li>
+    <li><a href="#section1">|Portfolio|</a></li>
+    <li>|Services|</li>
+    <li><a href="#section3">|Contact|</a></li>
+  </ul>
+      <h2>Services</h2>
+  <p >
+    A fathomless and boundless deep,
+    There we wander, there we weep;
+    On the hungry craving wind
+    My Spectre follows thee behind.
+  </p>
+</div>
+<div class="section black" id="section3">
+  <ul class="nav">
+    <li><a href="index.html">|Home|</a></li>	
+    <li><a href="#section1">|About Me|</a></li>
+    <li><a href="#section2">|Gallery|</a></li>
+    <li>|Contact|</li>
+  </ul>
+  <h2>Contact</h2>
+  <p>
+    Contact
+  </p>
+</div>
+<div>
+
+
+
+
+<script type="text/javascript" charset="utf-8">
+   $(function(){
+	$('ul.nav a').bind('click',function(event){
+		var $anchor = $(this);
+		/*
+		if you want to use one of the easing effects:
+		$('html, body').stop().animate({
+			scrollLeft: $($anchor.attr('href')).offset().left
+		}, 1500,'easeInOutExpo');
+		 */
+		$('html, body').stop().animate({
+			scrollLeft: $($anchor.attr('href')).offset().left
+		}, 1000);
+		event.preventDefault();
+	});
+   });
+ </script>
+

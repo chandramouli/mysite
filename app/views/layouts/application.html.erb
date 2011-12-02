@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>chandramouli</title>
+  <%= stylesheet_link_tag "default","jquery_ui"%>
+  <%= javascript_include_tag "jquery",#"easySlider","easySlider.packed","localscroll","scrollTo","serialScroll","jquery.min",*/
+                             "jquery_ui_custom_min" %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+<div id="wrapper">
+   <div id ="header">
+        <span id = 'logo'>
+           <% unless params[:action]=='personal_page_index'%>
+              <img src = '/images/logo5.png' id='name' alt ='chandramouli'/>
+              <% end %>
+        </span>
+   </div>
+<div id="content">
+    <%= yield %>
+
+   
+</div>
+</div> 
+</body>
+</html>
