@@ -7,8 +7,9 @@ gem 'rails', '3.0.9'
 
 gem 'mysql'
 
-gem "mongrel" 
+#gem "mongrel" 
 gem "cgi_multipart_eof_fix" 
+gem 'heroku'
 # gem "fastthread" 
 
 # Use unicorn as the web server
