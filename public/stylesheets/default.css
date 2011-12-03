@@ -208,7 +208,7 @@ a{
     float:left;
     padding:5px;
     margin:5px;
-    color:#aaa;
+    color:#000;
 }
     
 .black ul li a{
@@ -226,7 +226,7 @@ a{
     float:left;
     padding:5px;
     margin:5px;
-    color:#aaa;
+    color:#000;
 }
 .white ul li a{
     display:block;
