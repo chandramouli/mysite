@@ -10,4 +10,13 @@ class HomesController < ApplicationController
   
   def personal_page
   end	
+
+  def send_email
+  	@name =  params[:name]
+  	@email = params[:email]
+  	@subject = params[:subject]
+  	@message = params[:message]
+  	ContactMailer.contact_mail(@subject,@message,@email,@name).deliver
+    redirect_to :back
+  end
 end

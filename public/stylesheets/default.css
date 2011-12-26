@@ -30,7 +30,7 @@ body {
  }     
        
 #mainmenu_table {
-   margin-top: 25px;
+   margin-top: 125px;
    /*margin-left: -18px;*/
 } 
  
@@ -78,7 +78,7 @@ body {
 }
 
 h2 ,p{
-  color: #fff;
+  color:  #692A13;
 
 }
 
@@ -123,50 +123,12 @@ a{
      border: solid 1px #fff;
 }
 
-#business_image{
-  /*border: 1px solid #fff;*/
-  width: 45%;
-  height: 500px;
-  float: left;
-  background-color: #ffffff;
-}
-
-#mouli1{
-  padding:18px;
-}
-
-#business_content{
-  /*border: 1px solid #fff;*/
-  width: 55%;
-  float: right;
-  height: 500px;
-  background-color: #ffffff;
-}
-
-#business{
-  background-color: #ffffff;
-}
-
-#business_description{
-  border: 1px solid #000;
-  width: 92%;
-  height: 89%;
-}
-
-#mouli1{
-  padding:18px;
-}
-
-#forest{
-  /*margin-top: 30px;*/
-}
-
 
 /*-------------SCROLLTO---------------------*/
 .scrollto{
     background-image:url('/images/background.gif');
-    font-family:pristina;
-    font-size: 28px;
+    font-family: Bookman Old Style;
+    font-size: 22px;
     letter-spacing:1px;
     width:16000px;
     position:absolute;
@@ -187,28 +149,28 @@ a{
 }
 .section p{
     margin:20px 0px 0px 50px;
-    width:600px;
+    width:820px;
 }
 .black{
     color:#fff;    
-    background:url('/images/black2.jpg') no-repeat top right;
+    background:url('/images/black.jpg') no-repeat top right;
 }
 .white{
     color:#000;    
-    background:url('/images/white2.jpg') no-repeat top right;
+    background:url('/images/white.jpg') no-repeat top right;
 }
 .section ul{
     list-style:none;
     margin:20px 0px 0px 550px;
 }
 .black ul li{
-    font-family:Georgia;
+    font-family:Bookman Old Style;
     font-size:18px;
     font-weight:bold;
     float:left;
     padding:5px;
     margin:5px;
-    color:#000;
+    color:#692A13;
 }
     
 .black ul li a{
@@ -217,23 +179,29 @@ a{
 }
 .black ul li a:hover{
     text-decoration:none;
-    color:#fff;
+    color:#692A13;
 }
 .white ul li{
-    font-family:Georgia;
+    font-family:Bookman Old Style;
     font-size:18px;
     font-weight:bold;
     float:left;
     padding:5px;
     margin:5px;
-    color:#000;
+    color:#fff;
 }
 .white ul li a{
     display:block;
-    color:#222;
+    color:#692A13;
 }
 .white ul li a:hover{
     text-decoration:none;
-    color:#000;
+    color:#fff;
+}
+
+.selected{
+    -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+    -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
 }
 /*-------------------*/

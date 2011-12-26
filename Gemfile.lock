@@ -34,7 +34,6 @@ GEM
     cgi_multipart_eof_fix (2.5.0)
     erubis (2.6.6)
       abstract (>= 1.0.0)
-    gem_plugin (0.2.3)
     heroku (2.15.0)
       launchy (>= 0.3.2)
       rest-client (~> 1.6.1)
@@ -49,9 +48,6 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.16)
-    mongrel (1.1.5-x86-mingw32)
-      cgi_multipart_eof_fix (>= 2.4)
-      gem_plugin (>= 0.2.3)
     mysql (2.8.1-x86-mingw32)
     polyglot (0.3.2)
     rack (1.2.3)
@@ -91,6 +87,5 @@ PLATFORMS
 DEPENDENCIES
   cgi_multipart_eof_fix
   heroku
-  mongrel
   mysql
   rails (= 3.0.9)
